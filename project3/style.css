@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+}
+
+.container {
+  background: radial-gradient(#ffdc00, #ffa000);
+  margin: auto;
+  width: 450px;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.card {
+  display: block;
+}
+
+.card h1 {
+  font-size: 29px;
+  text-align: center;
+  color: #ff4b00ed;
+  border-bottom: 1px solid #ff8200;
+  padding-bottom: 7px;
+}
+
+form.form {
+  text-align: center;
+}
+
+input.input {
+  /* justify-content: space-between; */
+  margin-right: 13px;
+  /* padding: 7px 67px; */
+  border: 1px solid #f8a400;
+  border-radius: 20px;
+  width: 299px;
+  padding: 6px;
+}
+
+button.button {
+}
+
+button.button {
+  padding: 7px 33px;
+  background: #ff9800;
+  border: none;
+  border-radius: 20px;
+}
+
+.li {
+  border: 1px solid #ecff00;
+  margin: 9px;
+  justify-content: space-between;
+  width: 249px;
+  list-style-type: none;
+  padding: 10px 28px;
+  background: #ffa400db;
+  border-radius: 20px;
+  margin-left: -28px;
+}
+
+span.litext {
+  justify-content: space-between;
+}
+
+button.libtn {
+  float: right;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  background: red;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: navajowhite;
+  margin-top: -3px;
+  color: #ffc600;
+}
+
+.p {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  color: #ffaa01;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div><span>Ip: </span> <span class="ip"></span></div>
+      <div><span>City: </span> <span class="city"></span></div>
+      <div><span>Country: </span><span class="country"></span></div>
+      <div><span>Oy: </span><span class="oy"></span></div>
+    </div>
+
+    <script>
+      const ip = document.querySelector(".ip");
+      const city = document.querySelector(".city");
+      const country = document.querySelector(".country");
+      const oy = document.querySelector(".oy");
+
+      fetch("http://ip-api.com/json/?fields=61439")
+        .then((res) => res.json())
+        .then((res) => {
+          ip.textContent = res.query;
+          city.textContent = res.city;
+          country.textContent = res.country;
+          oy.textContent = res.isp;
+        });
+    </script>
+  </body>
+</html>
